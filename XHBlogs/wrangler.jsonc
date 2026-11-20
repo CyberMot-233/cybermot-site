@@ -18,8 +18,8 @@
   "d1_databases": [
     {
       "binding": "COMMENTS_DB",
-      "database_name": "1",
-      "database_id": "69932e58-21cf-457c-aa46-424057af3466"
+      "database_name": "chana",
+      "database_id": "2f2baedb-3934-495c-8957-c9ac61d4d1d2"
     }
   ],
   // 观测性：日志与追踪开、采样 100%，顶层开关按面板生成的配置保持关闭
