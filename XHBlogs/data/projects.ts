@@ -1,5 +1,5 @@
 // 在这里收录自己的作品；也可使用本地控制台维护。
-export type Project = { id: string; name: string; description: string; icon: string; githubUrl: string; tags: string[]; };
+export type Project = { id: string; name: string; description: string; icon: string; githubUrl?: string; tags: string[]; };
 
 export const projectsData: Project[] = [
   {
@@ -7,7 +7,7 @@ export const projectsData: Project[] = [
     name: "Sekiro Map Toolkit",
     description: "把解包后的只狼地图资源一键转成 Blender 场景：解析 MSB 摆放、FLVER 模型、MTD 材质与 TPF 贴图，物件位置与 DSMapStudio 完全一致。Avalonia 暗色界面，内置解包器与编辑器一键下载。",
     icon: "🗺️",
-    githubUrl: "https://github.com/Hoshino486/SekiroMapToolkit",
+    githubUrl: "https://github.com/CyberMot-233/SekiroMapToolkit",
     tags: ["只狼", "Blender", "C#"],
   },
   {
@@ -15,7 +15,7 @@ export const projectsData: Project[] = [
     name: "CyberMot 个人站",
     description: "本站源码。Next.js 16 + React 19 的赛博风个人站点，通过 OpenNext 构建后部署在 Cloudflare Workers，配套 GitHub Actions 流水线与本地可视化后台。",
     icon: "🌐",
-    githubUrl: "https://github.com/Hoshino486/cybermot-site",
+    githubUrl: "https://github.com/CyberMot-233/cybermot-site",
     tags: ["Next.js", "TypeScript", "Cloudflare"],
   },
   {
@@ -23,7 +23,7 @@ export const projectsData: Project[] = [
     name: "BomberStudio",
     description: "面向 Windows 的图形界面与命令行工具，用来打开 Unity 游戏数据：查找资源、预览常见内容、建立索引，并导出模型、动画、贴图、音频、视频和原始文件，支持多种游戏专用容器与 UnityCN 配置。",
     icon: "🎨",
-    githubUrl: "https://github.com/Hoshino486/BomberStudio",
+    githubUrl: "https://github.com/CyberMot-233/BomberStudio",
     tags: ["Unity", "资源提取", "Windows"],
   },
   {
@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     name: "BomberStudio Blender Bridge",
     description: "把 BomberStudio 导出的模型、材质和物理缓存接入 Blender。中文面板，支持 ASCII / 二进制 FBX、模型整理、角色工具与 PBR 图集。",
     icon: "🧩",
-    githubUrl: "https://github.com/Hoshino486/BomberStudio_Blender",
+    githubUrl: "https://github.com/CyberMot-233/BomberStudio_Blender",
     tags: ["Blender", "Python", "FBX"],
   },
   {
@@ -39,7 +39,7 @@ export const projectsData: Project[] = [
     name: "ZePractice",
     description: "给自己那张 CS2 跑图服写的 CounterStrikeSharp 插件：练习模式、人类指挥与标点画线、换图投票、工坊自动更新、Bot 陪练、神器监听和运行时诊断 HUD。",
     icon: "🎯",
-    githubUrl: "https://github.com/Hoshino486/ZePractice",
+    githubUrl: "https://github.com/CyberMot-233/ZePractice",
     tags: ["CS2", "C#", "CounterStrikeSharp"],
   },
   {
@@ -47,7 +47,6 @@ export const projectsData: Project[] = [
     name: "Unpackaging Tools",
     description: "解包流程所需重要文件的备份仓，避免误删后整条解包链路失效。",
     icon: "🧰",
-    githubUrl: "https://github.com/Hoshino486/Unpackaging-tools",
     tags: ["工具集", "备份"],
   },
   {
@@ -55,7 +54,6 @@ export const projectsData: Project[] = [
     name: "CS2 Character Skin File",
     description: "CS2 角色的皮肤文件，用于制作地图皮肤。以 AGPL-3.0 协议开源。",
     icon: "🎭",
-    githubUrl: "https://github.com/Hoshino486/CS2-Character-skin-file",
     tags: ["CS2", "Source 2", "皮肤"],
   },
   {
@@ -63,7 +61,6 @@ export const projectsData: Project[] = [
     name: "Servers Config",
     description: "服务器配置仓库，集中保存各服务的配置与部署记录。",
     icon: "⚙️",
-    githubUrl: "https://github.com/Hoshino486/servers-config",
     tags: ["配置", "运维"],
   },
 ];

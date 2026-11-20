@@ -12,10 +12,10 @@ BomberStudio 是一个面向 Windows 的桌面工具，用来打开 Unity 游戏
 
 ## 一、下载与安装
 
-安装包发布在仓库的 Releases 页面：
+项目仓库提供使用说明和界面截图。
 
-- GitHub：<https://github.com/Hoshino486/BomberStudio>
-- 当前版本 `1.1.6`，安装包名为 `BomberStudio-Setup-1.1.6.exe`
+- GitHub：<https://github.com/CyberMot-233/BomberStudio>
+- 本文使用的安装包是 `BomberStudio-Setup-1.1.6.exe`
 - 只支持 Windows x64，需要先装 **.NET 10 桌面运行时**
 
 装新版本时可以直接覆盖旧版本，已有的配置会保留。装完在「关于」页面确认版本号即可。
@@ -149,6 +149,6 @@ BomberStudio 是一个面向 Windows 的桌面工具，用来打开 Unity 游戏
 
 ## 最后
 
-仓库地址：<https://github.com/Hoshino486/BomberStudio>
+仓库地址：<https://github.com/CyberMot-233/BomberStudio>
 
 软件仅用于个人学习和资源研究，游戏资源版权归原厂商所有，请勿用于商业用途或二次分发。

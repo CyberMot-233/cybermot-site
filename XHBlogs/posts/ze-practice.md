@@ -162,8 +162,8 @@ SteamID64 不知道就进服敲 `!ze_whoami`。
 
 ## 六、源码
 
-仓库：<https://github.com/Hoshino486/ZePractice>
+仓库：<https://github.com/CyberMot-233/ZePractice>
 
 `src/` 分服务层和逻辑层，`tools/` 是启动、预检、更新与回滚脚本，`docs/` 是按版本归档的改动记录，`服务器使用教程.md` 有更细的配置说明。
 
-仓库**不含**游戏资源、地图 VPK 或工坊模型 —— 那些单独发在 Steam 创意工坊。地图数据来自 `Hoshino486/cs2` 的公开配置，版权仍归原作者。
+仓库**不含**游戏资源、地图 VPK 或工坊模型 —— 那些单独发在 Steam 创意工坊。地图数据取自公开的 `cs2` 配置，版权归原作者。来源见[项目署名说明](https://github.com/CyberMot-233/ZePractice/blob/main/ATTRIBUTION.md)。

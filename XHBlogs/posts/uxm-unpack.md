@@ -177,7 +177,7 @@ parts 里的文件用 Yabber 解包后可以使用 FlverEditor 进行修改，`t
 | Yapped | 用于对参数进行修改 | <https://github.com/JKAnderson/Yapped> | .NET 4.7.2 |
 | Noesis | 用于转换文件格式，将 .flevr 转为 .fbx | 无 | - |
 | FLVER_Editor | 用于编辑 .flevr 模型文件 | <https://github.com/asasasasasbc/FLVER_Editor> | - |
-| DSAnimStudio | 用于编辑查看 .TAE 动画文件 | <https://github.com/Meowmaritus/DSAnimStudio> | .NET 5.0 |
+| DSAnimStudio | 用于编辑查看 .TAE 动画文件 | [原版](https://github.com/Meowmaritus/DSAnimStudio) · [中文分支](https://github.com/CyberMot-233/DSAnimStudio) | .NET 5.0 |
 | DSLua | 用于反编译二进制 Lua 文件 | <https://github.com/katalash/DSLuaDecompiler> | - |
 | BloodborneTools | 将 .flver 文件解包获得 .smd 与 .ascii 格式 | 无 | - |
 | Flver2Smd&Ascii | 用于批处理的 .bat 文件 | 无 | - |

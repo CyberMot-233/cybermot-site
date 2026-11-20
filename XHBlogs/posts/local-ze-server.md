@@ -498,6 +498,6 @@ MultiAddonManager 首次下载完成时可能触发一次地图重载。所以**
 
 ## 源码
 
-插件本体：<https://github.com/Hoshino486/ZePractice>
+插件本体：<https://github.com/CyberMot-233/ZePractice>
 
 仓库里 `tools/` 是启动、预检、更新和回滚脚本，`服务器使用教程.md` 有更细的说明（地图参数、Boss、翻译、神器、朋友管理）。

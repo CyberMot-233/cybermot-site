@@ -12,7 +12,7 @@ UXM 拆开游戏之后，你拿到的是几万个 `.flver`、几千个 `.msb`、
 
 **Sekiro Map Toolkit** 就是为这一步写的：勾一张地图，它把摆放数据、模型、材质、贴图全解析出来，调 Blender 生成一个能直接打开的 `.blend`。位置、旋转、缩放和 DSMapStudio 里看到的完全一致。
 
-> 仓库：<https://github.com/Hoshino486/SekiroMapToolkit>
+> 仓库：<https://github.com/CyberMot-233/SekiroMapToolkit>
 
 ## 一、它到底做了什么
 
@@ -49,7 +49,7 @@ Avalonia 11 的无边框圆角窗，Fluent 暗色，左侧固定导航。七个�
 
 ### 1. 准备文件
 
-去 Releases 拿 `SekiroMapToolkit.exe`（自包含单文件，不用装 .NET），另外需要 `oo2core_6_win64.dll`。
+按文末的 `dotnet publish` 命令生成 `SekiroMapToolkit.exe`。这个单文件程序自带 .NET 运行时，解包时还需要 `oo2core_6_win64.dll`。
 
 这个 dll 是 Oodle 解压库，版权归 Epic Games，仓库不附带 —— 从你的只狼游戏目录或任意 Souls 工具包里拿一份放 exe 旁边就行，程序启动时也会自动去游戏根目录找。
 
@@ -193,7 +193,7 @@ SekiroMapToolkit.exe --cli --tools --only Nuxe,Yabber
 从源码编译需要 .NET 9 SDK：
 
 ```bat
-git clone https://github.com/Hoshino486/SekiroMapToolkit.git
+git clone https://github.com/CyberMot-233/SekiroMapToolkit.git
 cd SekiroMapToolkit\src\SekiroMapToolkit.Avalonia
 
 dotnet publish -c Release -r win-x64 --self-contained true ^

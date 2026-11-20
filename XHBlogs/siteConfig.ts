@@ -52,7 +52,7 @@ export const siteConfig = {
   // Steam 创意工坊里由自己上传/参与但页面作者不是本账号的条目，填工坊 ID 强制标为「作者」
   steamWorkshopAuthors: ["3521710695"],
   social: {
-    github: "https://github.com/Hoshino486",
+    github: "https://github.com/CyberMot-233",
     gitee: "https://gitee.com/CyberMot",
     google: "",
     email: "",

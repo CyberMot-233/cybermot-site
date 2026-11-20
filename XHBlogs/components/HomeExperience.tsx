@@ -255,7 +255,6 @@ export default function HomeExperience({ posts }: { posts: PostSummary[] }) {
               const looped = visiblePosts.length >= 4 ? [...visiblePosts, ...visiblePosts] : visiblePosts;
               return looped.map((post, index) => {
                 const fx = coverFxFor(post);
-                const label = index % visiblePosts.length === 0 ? 'A NEW BEGINNING' : index % visiblePosts.length === 1 ? 'SOMEWHERE TO STAY' : 'SMALL, BEAUTIFUL THINGS';
                 return (
                   <article
                     className={`journal-card sig-${fx}`}
@@ -263,13 +262,20 @@ export default function HomeExperience({ posts }: { posts: PostSummary[] }) {
                     aria-hidden={index >= visiblePosts.length ? true : undefined}
                     tabIndex={index >= visiblePosts.length ? -1 : undefined}
                   >
-                    <Link className="post-cover" href={'/posts/' + post.slug}>
+                    <a
+                      className="post-cover"
+                      href={siteConfig.social.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`访问《${post.title}》作者的 GitHub 主页`}
+                      tabIndex={index >= visiblePosts.length ? -1 : undefined}
+                    >
                       <img src={post.cover} alt="" loading="lazy" />
                       <CoverFxLayer variant={fx} />
                       <span className="post-number">0{(index % visiblePosts.length) + 1}</span>
                       <span className="post-open"><ArrowUpRight size={20} /></span>
-                      <span className="post-image-label">{label}</span>
-                    </Link>
+                      <span className="post-image-label">作者的 GitHub</span>
+                    </a>
                     <div className="post-content">
                       <div className="post-meta">
                         <span>{post.tags[0] || '随笔'}</span>

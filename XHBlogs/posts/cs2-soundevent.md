@@ -12,7 +12,7 @@ tags: ["CS2", "Source 2", "音频", "工具"]
 
 这篇分两部分：先把 SoundEvent 的文件结构和 KV3 写法讲清楚，再说怎么用在线工具少写一点、批量写一点。
 
-> 在线工具：<https://cybermot.bomber.asia/tools/soundevent/>
+> [打开在线工具](https://cybermot.bomber.asia/tools/soundevent/) · [查看工具源码](https://github.com/CyberMot-233/cybermot-site/tree/main/tools/soundevent)
 > 它不负责编译，只负责把脚本写对、写快。编译和试听仍然在 CS2 Workshop Tools 里完成。
 
 ## 一、两层文件：音频与脚本

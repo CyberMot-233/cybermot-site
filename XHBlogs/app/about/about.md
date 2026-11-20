@@ -45,11 +45,11 @@ CS2 ZE 地图的制作、皮肤的移植与调整、模型整理。地图我会�
 
 ## 项目
 
-- **[SekiroMapToolkit](https://github.com/Hoshino486/SekiroMapToolkit)** —— 只狼地图导出工具，MSB/FLVER/MTD/TPF → Blender
-- **[BomberStudio](https://github.com/Hoshino486/BomberStudio)** —— Unity 资源浏览、预览与导出工具
-- **[BomberStudio_Blender](https://github.com/Hoshino486/BomberStudio_Blender)** —— 把导出的模型接进 Blender 的插件
-- **[ZePractice](https://github.com/Hoshino486/ZePractice)** —— CS2 跑图服插件（练习、指挥、投票、诊断）
-- **[cybermot-site](https://github.com/Hoshino486/cybermot-site)** —— 本站的源码
+- **[SekiroMapToolkit](https://github.com/CyberMot-233/SekiroMapToolkit)** —— 只狼地图导出工具，MSB/FLVER/MTD/TPF → Blender
+- **[BomberStudio](https://github.com/CyberMot-233/BomberStudio)** —— Unity 资源浏览、预览与导出工具
+- **[BomberStudio_Blender](https://github.com/CyberMot-233/BomberStudio_Blender)** —— 把导出的模型接进 Blender 的插件
+- **[ZePractice](https://github.com/CyberMot-233/ZePractice)** —— CS2 跑图服插件（练习、指挥、投票、诊断）
+- **[cybermot-site](https://github.com/CyberMot-233/cybermot-site)** —— 本站的源码
 
 ## 关于这里
 

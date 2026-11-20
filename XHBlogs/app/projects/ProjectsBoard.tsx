@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import BackButton from '../../components/BackButton'; // 注意层级路径
 import { projectsData } from '../../data/projects';
+import { siteConfig } from '../../siteConfig';
 
 export default function ProjectsBoard() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -68,7 +69,7 @@ export default function ProjectsBoard() {
               className="h-full"
             >
               <a
-                href={project.githubUrl}
+                href={project.githubUrl ?? siteConfig.social.github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block h-full rounded-3xl bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-xl overflow-hidden hover:shadow-indigo-500/20 transition-all duration-700 hover:-translate-y-1 group relative p-6 md:p-8"
@@ -94,6 +95,7 @@ export default function ProjectsBoard() {
                 </p>
 
                 <div className="flex flex-wrap gap-2 relative z-10 mt-auto">
+                  {!project.githubUrl && <span className="text-xs font-semibold text-indigo-700 dark:text-indigo-300">作者的 GitHub ↗</span>}
                   {project.tags.map(tag => (
                     <span key={tag} className="text-[10px] font-bold tracking-wider uppercase text-indigo-600 dark:text-indigo-400 bg-indigo-500/10 px-3 py-1 rounded-md shadow-sm border border-indigo-500/20">
                       {tag}

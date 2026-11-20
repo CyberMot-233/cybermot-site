@@ -14,11 +14,11 @@ BomberStudio 负责把 Unity 资源拆出来，导成 `FBX`。但这批模型到
 
 ## 一、下载与安装
 
-从仓库 Releases 下载 **`Universal.zip`**（当前 1.2.0）：
+本文以 1.2.0 为例，Blender 安装时选择 **`BomberStudio_Blender_1.2.0_Universal.zip`**。配套源码在项目仓库里。
 
-> <https://github.com/Hoshino486/BomberStudio_Blender>
+> <https://github.com/CyberMot-233/BomberStudio_Blender>
 
-**注意：不要点 GitHub 的「Code → Download ZIP」**，那是源码包，装不上。要的是 Releases 里的 Universal 压缩包。
+从源码制作安装包，可以用仓库里的[打包脚本](https://github.com/CyberMot-233/BomberStudio_Blender/blob/main/tools/build_release.py)。
 
 装之前先保存正在编辑的 `.blend`。然后按你的 Blender 版本找入口：
 
@@ -151,6 +151,6 @@ Windows x64 实测过的版本：
 
 ## 最后
 
-仓库地址：<https://github.com/Hoshino486/BomberStudio_Blender>
+仓库地址：<https://github.com/CyberMot-233/BomberStudio_Blender>
 
 插件源码以 **GPL-3.0-or-later** 发布。它只提供数据处理流程，不包含游戏模型、贴图或第三方 FBX SDK；资源版权仍归原厂商，请用于个人学习与研究。
